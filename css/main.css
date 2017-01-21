@@ -1,0 +1,96 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #298EEA;
+}
+
+main {
+	position: relative;
+	box-sizing: border-box;
+}
+
+header {
+	width: 400px;
+	margin: 35px auto;
+	text-align: center;
+}
+
+.logo {
+	height: 35px;
+}
+
+.signup_form {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 3px;
+}
+
+
+h1 {
+	text-align: center;
+	color: grey;
+	font-weight: normal;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+} 
+input {
+	height: 55px;
+	width: 320px;
+	padding-left: 15px; 
+	border: 2px solid #dddddd;
+	border-radius: 3px;
+	margin-left: 40px;
+	box-sizing: border-box;
+}
+
+.button {
+	height: 55px;
+	width: 320px;
+	padding-right: 15px;
+	border-radius: 3px;
+	background-color: #68C373;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 40px;
+	margin-top: 30px;
+	border: 2px solid #006400;	
+}
+
+.button:hover {
+	background-color: green;
+}
+
+.grey {
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: -14px;
+}
+
+.grey a:link {
+	color: grey;
+	font-size: 10pt;
+} 
+
+.member {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+
+}
+
+.member a {
+	color: white;
+}
